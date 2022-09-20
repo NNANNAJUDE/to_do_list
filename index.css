@@ -1,0 +1,73 @@
+
+body{
+    height: 100vh;
+    background: url(img/teacupspp.jpeg) no-repeat center center / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#add-task-container{
+    width: 350px;
+    border-radius: 20px;
+    padding: 28px 10px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0 0 3px;
+    display: flex;
+    margin: 20px;
+}
+
+#input-task {
+    margin: 5px;
+    flex: 5;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    height: 30px;
+    font-size: larger;
+    padding: 5px;
+}
+
+#add-task {
+    flex: 0.5;
+    border-radius: 10px;
+    height: 50px;
+    color: darkgreen;
+    border: green solid 2px;
+    font-size: larger;
+    padding: 5px;
+    background-color: #fff;
+}
+
+#add-task:hover {
+    color: white;
+    background-color: green;
+}
+
+#task-container{
+    width: 100%;
+    list-style-type: none;
+}
+
+.task {
+    background-color: green;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 5px;
+}
+
+.edit {
+    background-color: greenyellow;
+    cursor: pointer;
+    margin: 0px 0px 0px 50vh;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.delete {
+    background-color: red;
+    cursor: pointer;
+    padding: 3px;
+    font-size: 20px;
+}
